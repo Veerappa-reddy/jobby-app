@@ -1,0 +1,30 @@
+.hr-line {
+  margin-top: 10px;
+}
+.filters-bg-container {
+  width: 25%;
+}
+@media (max-width: 768px) {
+  .filters-bg-container {
+    width: 40%;
+  }
+}
+.employment-types {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.checkbox-item {
+  color: #fff;
+  margin-left: 30px;
+}
+.items-container {
+  margin-top: 20px;
+}
+.label {
+  padding-left: 20px;
+}
+.un-order {
+  list-style-type: none;
+}

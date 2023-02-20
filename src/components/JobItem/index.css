@@ -1,0 +1,54 @@
+.job-item-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  padding: 10px;
+  color: #fff;
+  margin: 10px;
+}
+.link {
+  text-decoration: none;
+}
+.company-role-container {
+  display: flex;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+.star {
+  color: #fbbf24;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.package-container {
+  display: flex;
+  justify-content: space-between;
+}
+.employee-details {
+  display: flex;
+}
+.company-logo {
+  max-width: 60px;
+}
+.role-container {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title {
+  font-size: 20px;
+}
+.location {
+  padding-left: 5px;
+}
+.description-heading {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+}

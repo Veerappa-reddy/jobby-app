@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.login-bg-container {
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 10px;
+  height: 350px;
+  width: 350px;
+  justify-content: space-around;
+  /* align-items: center; */
+  /* margin-bottom: 10p; */
+}
+.login-logo-container {
+  display: flex;
+}
+.website-logo {
+  width: 150px;
+  align-self: center;
+}
+.jobby-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.user-name-container {
+  display: flex;
+  flex-direction: column;
+}
+.username-input-field {
+  background-color: #272727;
+  border: 1px solid #475569;
+  padding: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  outline: none;
+  color: #cbd5e1;
+}
+.username-input-field::placeholder {
+  /* color: red; */
+}
+.username-label {
+  color: #f1f5f9;
+  margin-bottom: 7px;
+}
+.login-btn {
+  background-color: #4f46e5;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+  color: #f8fafc;
+}
+.password-input-field {
+  background-color: #272727;
+  border: 1px solid #475569;
+  padding: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  outline: none;
+  color: #cbd5e1;
+}
+.error-msg {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,35 @@
+.similar-job-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  padding: 10px;
+  margin: 20px;
+  width: 330px;
+  color: #fff;
+  height: 360px;
+  justify-content: space-around;
+}
+.similar-job-img {
+  width: 50px;
+  height: 50px;
+}
+.similar-job-role-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  margin-left: 10px;
+}
+.similar-job-title {
+  color: #fff;
+  font-size: 18px;
+}
+.description {
+  font-size: 13px;
+}
+.loc {
+  margin: 10px 0px;
+}
+.head {
+  margin: 10px 0px;
+}
